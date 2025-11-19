@@ -1,0 +1,56 @@
+.hero {
+    position: relative;
+}
+
+.hero__wrapper {
+    max-width: 550px;
+}
+
+.hero__ihnner {
+    position: relative;
+}
+
+.hero__title {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 125%;
+    color: var(--141b41);
+    margin-bottom: 22px;
+}
+
+.hero__arrow {
+    position: absolute;
+    bottom: 15px;
+    right: 98px;
+}
+
+.hero__text {
+    font-weight: 350;
+    font-size: 24px;
+    line-height: 140%;
+    color: var(--72727e);
+    margin-bottom: 52px;
+}
+
+.hero__button {
+    border-radius: 6px;
+    background: var(--446df6);
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--eeeeee);
+    padding: 20px 51px 18px 51px;
+    transition: transform 0.3s ease-in;
+}
+
+.hero__image-iphone {
+    position: absolute;
+    top: -197px;
+    right: 0;
+    z-index: 0;
+}
+
+@media (hover: hover) {
+    .hero__button:hover {
+        transform: scale(1.02);
+    }
+}

@@ -13,3 +13,8 @@ button {
     padding: 0;
     background: none;
 }
+
+h1,
+p {
+    margin: 0;
+}
