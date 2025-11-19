@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "GT Eesti Pro Display";
+    src:
+        local("GT Eesti Pro Display"),
+        url("../fonts/GTEestiProDisplay-Light.woff") format("woff"),
+        url("../fonts/GTEestiProDisplay-Light.woff2") format("woff2");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "GT Eesti Pro Display";
+    src:
+        local("GT Eesti Pro Display"),
+        url("../fonts/GTEestiProDisplay-Regular.woff") format("woff"),
+        url("../fonts/GTEestiProDisplay-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: "GT Eesti Pro Display";
+    src:
+        local("GT Eesti Pro Display"),
+        url("../fonts/GTEestiProDisplay-Medium.woff") format("woff"),
+        url("../fonts/GTEestiProDisplay-Medium.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
